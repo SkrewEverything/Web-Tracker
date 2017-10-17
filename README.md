@@ -3,20 +3,20 @@
 
 It scans and logs the currently opened websites in Chrome Browser. It can even log incognito windows.
 
-And the main thing is **It doesn't require any permissions to run**🔥.
+And the best thing is, **It doesn't require any permissions to run**🔥.
 
 
 ## Usage
 
 Clone the repository, open the project in Xcode, build the project and run the executable.
 
-By default, it logs every `5secs` and creates the database file `web-tracker.db` in the home directory.
+By default, it logs every `5 secs` and creates the database file `web-tracker.db` in the home directory.
 
 **To provide custom time and file name**:
 
 The executable can take multiple arguments
-1) Both time and file name
-The order doesn't matter
+
+**1)** Both time and file name. The order doesn't matter.
 
 **Example**:
 ```sh
@@ -26,7 +26,8 @@ $ Web\ Tracker 2.5 "./Desktop/tracker.db"
 ```sh
 $ Web\ Tracker "./Desktop/tracker.db" 2.5
 ```
-2) Either time or file name
+
+**2)** Either time or file name
 
 **Example**:
 ```sh
@@ -48,7 +49,7 @@ And you can quit the Terminal.
 
 ### To quit/stop the Web Tracker
 
-To quit the Web Tracker, first find it's pid using ps and use kill to stop the Web Tracker.
+To quit the Web Tracker, first find its PID using `ps` and use `kill` to stop the Web Tracker.
 
 ```sh
 $ ps -e | grep "Web Tracker"
