@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2462021C1F8EF95F00D800F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462021B1F8EF95F00D800F5 /* main.swift */; };
+		246202241F8EF96B00D800F5 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246202231F8EF96B00D800F5 /* ScriptingBridge.framework */; };
+		246202261F8EF97000D800F5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 246202251F8EF97000D800F5 /* libsqlite3.tbd */; };
+		246202331F8EF9D300D800F5 /* CustomTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462022D1F8EF9D300D800F5 /* CustomTypes.swift */; };
+		246202341F8EF9D300D800F5 /* PreparedStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2462022E1F8EF9D300D800F5 /* PreparedStatement.swift */; };
+		246202351F8EF9D300D800F5 /* SQLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246202301F8EF9D300D800F5 /* SQLight.swift */; };
+		246202371F8EFCF800D800F5 /* ChromeBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246202361F8EFCF800D800F5 /* ChromeBrowser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		246202161F8EF95F00D800F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		246202181F8EF95F00D800F5 /* Web Tracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Web Tracker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2462021B1F8EF95F00D800F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		246202231F8EF96B00D800F5 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		246202251F8EF97000D800F5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		246202271F8EF99200D800F5 /* Chrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chrome.h; sourceTree = "<group>"; };
+		246202281F8EF9A200D800F5 /* Web Tracker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Web Tracker-Bridging-Header.h"; sourceTree = "<group>"; };
+		2462022D1F8EF9D300D800F5 /* CustomTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTypes.swift; sourceTree = "<group>"; };
+		2462022E1F8EF9D300D800F5 /* PreparedStatement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreparedStatement.swift; sourceTree = "<group>"; };
+		246202301F8EF9D300D800F5 /* SQLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLight.swift; sourceTree = "<group>"; };
+		246202361F8EFCF800D800F5 /* ChromeBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeBrowser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		246202151F8EF95F00D800F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246202261F8EF97000D800F5 /* libsqlite3.tbd in Frameworks */,
+				246202241F8EF96B00D800F5 /* ScriptingBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2462020F1F8EF95F00D800F5 = {
+			isa = PBXGroup;
+			children = (
+				2462021A1F8EF95F00D800F5 /* Web Tracker */,
+				246202191F8EF95F00D800F5 /* Products */,
+				246202221F8EF96A00D800F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		246202191F8EF95F00D800F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				246202181F8EF95F00D800F5 /* Web Tracker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2462021A1F8EF95F00D800F5 /* Web Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				2462021B1F8EF95F00D800F5 /* main.swift */,
+				246202361F8EFCF800D800F5 /* ChromeBrowser.swift */,
+				246202271F8EF99200D800F5 /* Chrome.h */,
+				246202281F8EF9A200D800F5 /* Web Tracker-Bridging-Header.h */,
+				2462022C1F8EF9D300D800F5 /* SQLight */,
+			);
+			path = "Web Tracker";
+			sourceTree = "<group>";
+		};
+		246202221F8EF96A00D800F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246202251F8EF97000D800F5 /* libsqlite3.tbd */,
+				246202231F8EF96B00D800F5 /* ScriptingBridge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2462022C1F8EF9D300D800F5 /* SQLight */ = {
+			isa = PBXGroup;
+			children = (
+				2462022D1F8EF9D300D800F5 /* CustomTypes.swift */,
+				2462022E1F8EF9D300D800F5 /* PreparedStatement.swift */,
+				246202301F8EF9D300D800F5 /* SQLight.swift */,
+			);
+			path = SQLight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		246202171F8EF95F00D800F5 /* Web Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2462021F1F8EF95F00D800F5 /* Build configuration list for PBXNativeTarget "Web Tracker" */;
+			buildPhases = (
+				246202141F8EF95F00D800F5 /* Sources */,
+				246202151F8EF95F00D800F5 /* Frameworks */,
+				246202161F8EF95F00D800F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Tracker";
+			productName = "Web Tracker";
+			productReference = 246202181F8EF95F00D800F5 /* Web Tracker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		246202101F8EF95F00D800F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SkrewEverything;
+				TargetAttributes = {
+					246202171F8EF95F00D800F5 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 246202131F8EF95F00D800F5 /* Build configuration list for PBXProject "Web Tracker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2462020F1F8EF95F00D800F5;
+			productRefGroup = 246202191F8EF95F00D800F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				246202171F8EF95F00D800F5 /* Web Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		246202141F8EF95F00D800F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				246202351F8EF9D300D800F5 /* SQLight.swift in Sources */,
+				246202341F8EF9D300D800F5 /* PreparedStatement.swift in Sources */,
+				246202331F8EF9D300D800F5 /* CustomTypes.swift in Sources */,
+				2462021C1F8EF95F00D800F5 /* main.swift in Sources */,
+				246202371F8EFCF800D800F5 /* ChromeBrowser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2462021D1F8EF95F00D800F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2462021E1F8EF95F00D800F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		246202201F8EF95F00D800F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Web Tracker/Web Tracker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		246202211F8EF95F00D800F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Web Tracker/Web Tracker-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		246202131F8EF95F00D800F5 /* Build configuration list for PBXProject "Web Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2462021D1F8EF95F00D800F5 /* Debug */,
+				2462021E1F8EF95F00D800F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2462021F1F8EF95F00D800F5 /* Build configuration list for PBXNativeTarget "Web Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				246202201F8EF95F00D800F5 /* Debug */,
+				246202211F8EF95F00D800F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 246202101F8EF95F00D800F5 /* Project object */;
+}
